@@ -100,10 +100,10 @@ function addEventListeners() {
         item.addEventListener('dragleave', dragLeave)
     })
 }
+check.addEventListener('click', checkOrder)
 
 
 createList()
-check.addEventListener('click', checkOrder)
 
 
 
